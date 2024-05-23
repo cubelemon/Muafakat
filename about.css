@@ -23,21 +23,23 @@ span {
     line-height: 1.25;
 }
 
-h1 {
-    font-weight: 500;
-    margin-bottom: 16px;
-}
 
 h2 {
-    font-weight: 300;
+    font-weight: 500;
     color: white;
     text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 10px;
 }
 
-h1,
+
 h2,
 h3 {
     font-size: 36px;
+}
+
+h3 {
+    color: #DC241E;
+    margin-bottom: 48px;
 }
 
 h4 {
@@ -49,7 +51,7 @@ h5 {
     font-size: 20px;
 }
 
-p {
+p, li {
     line-height: 1.5;
     font-size: 18px;
     color: #0032A0;
@@ -80,7 +82,7 @@ img {
 header {
     width: 100%;
     height: calc(100vh - 80px);
-    background-image: url(./Assets/landing-bg.jpg);
+    background-image: url(./Assets/tracks.jpg);
     background-color: #F68D1E;
     background-position: center;
     background-repeat: no-repeat;
@@ -123,9 +125,6 @@ header {
     left: 0;
     background-color: black;
 }
-
-
-
 
 /*
 
@@ -192,100 +191,56 @@ button {
     max-width: 1200px;
 }
 
-/*
-
-    ABOUT
-
-*/
-
-.motto {
-    color: #DC241E;
-    margin-bottom: 48px;
-}
-
-
-.about__img--list {
-    display: flex;
-    width: 100%;
-    margin-bottom: 16px;
-}
-
-.about__img--wrapper {
-    width: calc(100% / 3);
-    height: 50%;
-    margin: 8px;
-    object-fit: cover;
-}
-
-.about__img {
-    display: flex;
-    height: 400px;
-    object-fit: cover;
-}
-
-.about__description {
-    width: 80%;
-    margin-bottom: 24px;
-}
 
 /*
 
-    EVENT SCHEDULE
+    PILLAR
 
 */
 
-.row__event {
-    max-width: 1000px;
-    padding: 0;
-}
-
-.events {
-    width: 100%;
+.pillars {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
 }
 
-.event {
+.pillar {
+    padding: 16px 8px;
+    margin: 0 16px;
     width: calc(100% / 3);
-    padding: 0 8px;
-    margin-bottom: 16px;
+    border:solid 4px;
 }
 
-.event__img {
-    height: 20vw;
-    object-fit: cover;
+.pillar__num {
     margin-bottom: 8px;
 }
 
-.event__description {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+.pillar__name {
+    margin-bottom: 8px;
 }
 
-.event__half1--day {
-    color: #DC241E;
+.pillar__01 {
+    border-color: #DC241E;
 }
 
-.event__half2--time {
-    color: #0032A0;
+.pillar__02 {
+    border-color: #0032A0;
 }
+
+.pillar__03 {
+    border-color: #FFC619;
+}
+
 
 /*
 
-    AFFILIATES
+    PARTICIPATE
 
 */
 
-.affiliates__logo--list {
-    display: flex;
-    width: 100%;
-}
-
-.masca__logo--wrapper {
-    width: calc(100%/6);
-    padding: 8px;
+.aus__img--wrapper {
+    max-width: 50vw;
+    margin-bottom: 48px;
 }
 
 /*
@@ -364,71 +319,4 @@ footer {
 
 .social__link {
     padding: 8px;
-}
-
-/* Small phone, tablets, large smartphones*/
-@media (max-width:768px) {
-
-    h1 {
-        font-size: 28px;
-    }
-
-    h1,
-    h2,
-    h3 {
-        font-size: 24px;
-    }
-
-    h4 {
-        font-size: 16px;
-        font-weight: 500;
-    }
-    
-    h5 {
-        font-size: 32px;
-    }
-
-    p,
-    button,
-    nav {
-        font-size: 16px;
-    }
-
-    .footer__logo--wrapper {
-        height: 60px;
-    }
-    
-}
-
-/* SMALL PHONES */
-
-@media (max-width:480px) {
-    .nav__link--phone {
-        display: none;
-    }
-
-    h1,
-    h2,
-    h3 {
-        font-size: 18px;
-    }
-
-    p,
-    button,
-    nav {
-        font-size: 12px;
-    }
-    
-
-    .footer__content {
-        font-size: 10px;
-    }
-
-    .footer__logo--wrapper {
-        display: none;
-    }
-
-    .footer__info {
-        margin: 0;
-    }
 }
