@@ -323,7 +323,10 @@ footer {
 
 /* Small phone, tablets, large smartphones*/
 @media (max-width:768px) {
-
+    .nav__link--phone {
+        display: none;
+    }
+    
     h1 {
         font-size: 28px;
     }
@@ -358,9 +361,7 @@ footer {
 /* SMALL PHONES */
 
 @media (max-width:480px) {
-    .nav__link--phone {
-        display: none;
-    }
+
 
     h1,
     h2,
