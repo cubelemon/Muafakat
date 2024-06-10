@@ -370,7 +370,7 @@ footer {
     }
 
     h4, h5 {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .event {
@@ -381,9 +381,16 @@ footer {
         height: 40vw;
     }
 
+    .background__captions {
+        max-width: 80%;
+    }
+
     p,
-    button,
-    nav {
+    button {
+        font-size: 8px;
+    }
+
+    li {
         font-size: 12px;
     }
     

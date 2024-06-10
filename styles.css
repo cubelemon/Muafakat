@@ -371,6 +371,13 @@ footer {
     padding: 8px;
 }
 
+/*
+
+    ABOUT PAGE
+
+*/
+
+
 /* Small phone, tablets, large smartphones*/
 @media (max-width:768px) {
 
@@ -433,6 +440,10 @@ footer {
     p,
     button,
     nav {
+        font-size: 12px;
+    }
+
+    li {
         font-size: 12px;
     }
 
