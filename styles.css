@@ -283,6 +283,12 @@ button {
     width: 100%;
 }
 
+.ema__img--wrapper {
+    width: 30%;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
 .masca__logo--wrapper {
     width: calc(100%/6);
     padding: 16px;
