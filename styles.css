@@ -412,6 +412,10 @@ footer {
         font-size: 16px;
     }
 
+    .masca__logo--wrapper {
+        padding: 8px;
+    }
+
     .footer__logo--wrapper {
         height: 60px;
     }
@@ -457,6 +461,9 @@ footer {
         height: 200px;
     }
     
+    .masca__logo--wrapper {
+        padding: 6px;
+    }
 
     .footer__content {
         font-size: 10px;
